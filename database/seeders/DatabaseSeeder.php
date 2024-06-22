@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
           // Create 10 users
             // Create 10 users and for each user, create 5 attendances
         user::factory(10)->create();
-        attendance::factory(5)->create();
+        attendance::factory(100)->create();
        
        
     }

@@ -19,7 +19,7 @@ class AttendanceFactory extends Factory
     {
         return [
            
-                'user_id' => $this->facker->numberBetween($min = 1, $max = 100), // create a new user or use existing
+                'user_id' => $this->faker->numberBetween(1, 10),
                 'date' => $this->faker->date(),
                 'check_in' => $this->faker->time($format = 'H:i:s', $max = 'now'),
                 'check_out' => $this->faker->optional()->time($format = 'H:i:s', $max = 'now'),

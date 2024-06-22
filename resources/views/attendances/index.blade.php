@@ -24,7 +24,7 @@
         </div>
         <button type="submit" class="btn btn-secondary">Absen Keluar</button>
     </form>
-    <table class="table mt-4">
+    <table class="table">
         <thead>
             <tr>
                 <th>Tanggal</th>
