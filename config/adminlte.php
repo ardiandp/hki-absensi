@@ -335,7 +335,7 @@ return [
           
                 [
                     'text' => 'Laporan',
-                    'url' => 'laporan',
+                    'url' => 'reports/attendance',
                 ],
             ],
         ],
